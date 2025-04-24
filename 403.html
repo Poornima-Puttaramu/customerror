@@ -5,23 +5,40 @@
   <title>MS COI 403 - Access Denied</title>
   <style>
     body {
-      background-color: #f9f9f9;
-      color: #333;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://news.microsoft.com/wp-content/uploads/prod/sites/612/2021/06/Azure_Cloud_Background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
       text-align: center;
-      font-family: Arial, sans-serif;
-      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      backdrop-filter: brightness(0.4);
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px 60px;
+      border-radius: 12px;
     }
     h1 {
       font-size: 48px;
-      color: #e74c3c;
+      margin-bottom: 20px;
+      color: #00a1f1;
     }
     p {
       font-size: 18px;
+      color: #ddd;
     }
   </style>
 </head>
 <body>
-  <h1>403 - Access Denied</h1>
-  <p>You don’t have permission to access this resource.<br>Please contact support or try again later.</p>
+  <div class="container">
+    <h1>403 - Access Denied</h1>
+    <p>You don’t have permission to access this resource.<br>Please contact support or try again later.</p>
+  </div>
 </body>
 </html>
